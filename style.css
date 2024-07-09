@@ -1,0 +1,32 @@
+:root {
+    --background-color: #a0a0a0;
+    --text-color: #000000;
+}
+
+.dark-theme {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+	background-color: var(--background-color);
+	color: var(--text-color);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
